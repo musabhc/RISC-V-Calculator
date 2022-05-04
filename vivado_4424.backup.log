@@ -1,0 +1,1057 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue Jan 19 10:24:44 2021
+# Process ID: 4424
+# Current directory: C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9236 C:\Users\Emre\Desktop\riscv-simple-sv-master\riscvVivado\riscvVivado.xpr
+# Log file: C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/vivado.log
+# Journal file: C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
+open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:05 . Memory (MB): peak = 937.109 ; gain = 225.762
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_top' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_top_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/adder.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/alu.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/alu_control.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu_control
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/control_transfer.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_transfer
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/data_memory_interface.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_memory_interface
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/example_data_memory.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module example_data_memory
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/example_data_memory_bus.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module example_data_memory_bus
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/example_text_memory.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module example_text_memory
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/example_text_memory_bus.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module example_text_memory_bus
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/immediate_generator.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module immediate_generator
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/instruction_decoder.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instruction_decoder
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/multiplexer.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplexer
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/multiplexer2.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplexer2
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/multiplexer4.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplexer4
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/multiplexer8.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplexer8
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/regfile.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/register.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/riscv_core.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module riscv_core
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/singlecycle_control.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module singlecycle_control
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/singlecycle_ctlpath.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module singlecycle_ctlpath
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/singlecycle_datapath.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module singlecycle_datapath
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/toplevel.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module toplevel
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sim_1/new/tb_top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_top
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.sim/sim_1/behav/xsim'
+"xelab -wto 8bef7ed51f184b6e9f2db301dd31fd34 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_top_behav xil_defaultlib.tb_top xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 8bef7ed51f184b6e9f2db301dd31fd34 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_top_behav xil_defaultlib.tb_top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/toplevel.sv" Line 4. Module toplevel doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/riscv_core.sv" Line 4. Module riscv_core doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/singlecycle_datapath.sv" Line 4. Module singlecycle_datapath doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/adder.sv" Line 5. Module adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/adder.sv" Line 5. Module adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/alu.sv" Line 4. Module alu doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/multiplexer4.sv" Line 4. Module multiplexer4 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/multiplexer.sv" Line 5. Module multiplexer(CHANNELS=4) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/multiplexer2.sv" Line 5. Module multiplexer2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/multiplexer.sv" Line 5. Module multiplexer_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/multiplexer2.sv" Line 5. Module multiplexer2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/multiplexer.sv" Line 5. Module multiplexer_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/multiplexer8.sv" Line 4. Module multiplexer8 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/multiplexer.sv" Line 5. Module multiplexer(CHANNELS=8) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/register.sv" Line 4. Module register(INITIAL=32'b010000000000000000000000) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/regfile.sv" Line 4. Module regfile doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/instruction_decoder.sv" Line 4. Module instruction_decoder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/immediate_generator.sv" Line 4. Module immediate_generator doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/singlecycle_ctlpath.sv" Line 4. Module singlecycle_ctlpath doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/singlecycle_control.sv" Line 4. Module singlecycle_control doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/control_transfer.sv" Line 4. Module control_transfer doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/alu_control.sv" Line 4. Module alu_control doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/data_memory_interface.sv" Line 4. Module data_memory_interface doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/example_text_memory_bus.sv" Line 4. Module example_text_memory_bus doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/example_text_memory.sv" Line 4. Module example_text_memory doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/example_data_memory_bus.sv" Line 4. Module example_data_memory_bus doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/example_data_memory.sv" Line 4. Module example_data_memory doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.multiplexer(CHANNELS=4)
+Compiling module xil_defaultlib.multiplexer4
+Compiling module xil_defaultlib.multiplexer_default
+Compiling module xil_defaultlib.multiplexer2
+Compiling module xil_defaultlib.multiplexer(CHANNELS=8)
+Compiling module xil_defaultlib.multiplexer8
+Compiling module xil_defaultlib.register(INITIAL=32'b01000000000...
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.instruction_decoder
+Compiling module xil_defaultlib.immediate_generator
+Compiling module xil_defaultlib.singlecycle_datapath
+Compiling module xil_defaultlib.singlecycle_control
+Compiling module xil_defaultlib.control_transfer
+Compiling module xil_defaultlib.alu_control
+Compiling module xil_defaultlib.singlecycle_ctlpath
+Compiling module xil_defaultlib.data_memory_interface
+Compiling module xil_defaultlib.riscv_core
+Compiling module xil_defaultlib.example_text_memory
+Compiling module xil_defaultlib.example_text_memory_bus
+Compiling module xil_defaultlib.example_data_memory
+Compiling module xil_defaultlib.example_data_memory_bus
+Compiling module xil_defaultlib.toplevel
+Compiling module xil_defaultlib.tb_top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_top_behav
+
+****** Webtalk v2019.1 (64-bit)
+  **** SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+  **** IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.sim/sim_1/behav/xsim/xsim.dir/tb_top_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Tue Jan 19 10:25:15 2021...
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 937.109 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_top_behav -key {Behavioral:sim_1:Functional:tb_top} -tclbatch {tb_top.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+source tb_top.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+PC: 00400000, Inst: 7fc00097, Addr: 80000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxxxxxx, WrEn: 0, Wr-BE: 0001
+PC: 00400004, Inst: 00008093, Addr: 80000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 00400008, Inst: 00008183, Addr: 80000000, Rd-Dt: 0ff000ff, Rd-En 1, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 0040000c, Inst: fff00e93, Addr: ffffffff, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xx000000, WrEn: 0, Wr-BE: 1000
+PC: 00400010, Inst: 00200e13, Addr: 00000002, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxx0000, WrEn: 0, Wr-BE: 0100
+PC: 00400014, Inst: 23d19c63, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: ffffff00, WrEn: 0, Wr-BE: 0110
+PC: 00400018, Inst: 7fc00097, Addr: 80000018, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000002, WrEn: 0, Wr-BE: 0001
+PC: 0040001c, Inst: fe808093, Addr: 80000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxxxxxx, WrEn: 0, Wr-BE: 0001
+PC: 00400020, Inst: 00108183, Addr: 80000001, Rd-Dt: 0ff000ff, Rd-En 1, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0010
+PC: 00400024, Inst: 00000e93, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 00400028, Inst: 00300e13, Addr: 00000003, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 1000
+PC: 0040002c, Inst: 23d19063, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0110
+PC: 00400030, Inst: 7fc00097, Addr: 80000030, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000003, WrEn: 0, Wr-BE: 0001
+PC: 00400034, Inst: fd008093, Addr: 80000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxxxxxx, WrEn: 0, Wr-BE: 0001
+PC: 00400038, Inst: 00208183, Addr: 80000002, Rd-Dt: 0ff000ff, Rd-En 1, Wr-Dt: xxxx0000, WrEn: 0, Wr-BE: 0100
+PC: 0040003c, Inst: ff000e93, Addr: fffffff0, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxxxxxx, WrEn: 0, Wr-BE: 0001
+PC: 00400040, Inst: 00400e13, Addr: 00000004, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxxxxxx, WrEn: 0, Wr-BE: 0001
+PC: 00400044, Inst: 21d19463, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: fffff000, WrEn: 0, Wr-BE: 0110
+PC: 00400048, Inst: 7fc00097, Addr: 80000048, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000004, WrEn: 0, Wr-BE: 0001
+PC: 0040004c, Inst: fb808093, Addr: 80000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxxxxxx, WrEn: 0, Wr-BE: 0001
+PC: 00400050, Inst: 00308183, Addr: 80000003, Rd-Dt: 0ff000ff, Rd-En 1, Wr-Dt: f0000000, WrEn: 0, Wr-BE: 1000
+PC: 00400054, Inst: 00f00e93, Addr: 0000000f, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xx000000, WrEn: 0, Wr-BE: 1000
+PC: 00400058, Inst: 00500e13, Addr: 00000005, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxxxx00, WrEn: 0, Wr-BE: 0010
+PC: 0040005c, Inst: 1fd19863, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000f00, WrEn: 0, Wr-BE: 0110
+PC: 00400060, Inst: 7fc00097, Addr: 80000060, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000005, WrEn: 0, Wr-BE: 0001
+PC: 00400064, Inst: fa308093, Addr: 80000003, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 0f000000, WrEn: 0, Wr-BE: 1000
+PC: 00400068, Inst: ffd08183, Addr: 80000000, Rd-Dt: 0ff000ff, Rd-En 1, Wr-Dt: 0000000f, WrEn: 0, Wr-BE: 0001
+PC: 0040006c, Inst: fff00e93, Addr: ffffffff, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xx000000, WrEn: 0, Wr-BE: 1000
+PC: 00400070, Inst: 00600e13, Addr: 00000006, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxx0000, WrEn: 0, Wr-BE: 0100
+PC: 00400074, Inst: 1dd19c63, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: ffffff00, WrEn: 0, Wr-BE: 0110
+PC: 00400078, Inst: 7fc00097, Addr: 80000078, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000006, WrEn: 0, Wr-BE: 0001
+PC: 0040007c, Inst: f8b08093, Addr: 80000003, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xx000000, WrEn: 0, Wr-BE: 1000
+PC: 00400080, Inst: ffe08183, Addr: 80000001, Rd-Dt: 0ff000ff, Rd-En 1, Wr-Dt: xxxxxx00, WrEn: 0, Wr-BE: 0010
+PC: 00400084, Inst: 00000e93, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 00400088, Inst: 00700e13, Addr: 00000007, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xx000000, WrEn: 0, Wr-BE: 1000
+PC: 0040008c, Inst: 1dd19063, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0110
+PC: 00400090, Inst: 7fc00097, Addr: 80000090, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000007, WrEn: 0, Wr-BE: 0001
+PC: 00400094, Inst: f7308093, Addr: 80000003, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xx000000, WrEn: 0, Wr-BE: 1000
+PC: 00400098, Inst: fff08183, Addr: 80000002, Rd-Dt: 0ff000ff, Rd-En 1, Wr-Dt: xxxx0000, WrEn: 0, Wr-BE: 0100
+PC: 0040009c, Inst: ff000e93, Addr: fffffff0, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxxxxxx, WrEn: 0, Wr-BE: 0001
+PC: 004000a0, Inst: 00800e13, Addr: 00000008, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxxxxxx, WrEn: 0, Wr-BE: 0001
+PC: 004000a4, Inst: 1bd19463, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: fffff000, WrEn: 0, Wr-BE: 0110
+PC: 004000a8, Inst: 7fc00097, Addr: 800000a8, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000008, WrEn: 0, Wr-BE: 0001
+PC: 004000ac, Inst: f5b08093, Addr: 80000003, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xx000000, WrEn: 0, Wr-BE: 1000
+PC: 004000b0, Inst: 00008183, Addr: 80000003, Rd-Dt: 0ff000ff, Rd-En 1, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 1000
+PC: 004000b4, Inst: 00f00e93, Addr: 0000000f, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xx000000, WrEn: 0, Wr-BE: 1000
+PC: 004000b8, Inst: 00900e13, Addr: 00000009, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxxxx00, WrEn: 0, Wr-BE: 0010
+PC: 004000bc, Inst: 19d19863, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000f00, WrEn: 0, Wr-BE: 0110
+PC: 004000c0, Inst: 7fc00097, Addr: 800000c0, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000009, WrEn: 0, Wr-BE: 0001
+PC: 004000c4, Inst: f4008093, Addr: 80000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 004000c8, Inst: fe008093, Addr: 7fffffe0, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 004000cc, Inst: 02008283, Addr: 80000000, Rd-Dt: 0ff000ff, Rd-En 1, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 004000d0, Inst: fff00e93, Addr: ffffffff, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xx000000, WrEn: 0, Wr-BE: 1000
+PC: 004000d4, Inst: 00a00e13, Addr: 0000000a, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxx0000, WrEn: 0, Wr-BE: 0100
+PC: 004000d8, Inst: 17d29a63, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: ffffff00, WrEn: 0, Wr-BE: 0110
+PC: 004000dc, Inst: 7fc00097, Addr: 800000dc, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 0000000a, WrEn: 0, Wr-BE: 0001
+PC: 004000e0, Inst: f2408093, Addr: 80000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxxxxxx, WrEn: 0, Wr-BE: 0001
+PC: 004000e4, Inst: ffa08093, Addr: 7ffffffa, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxx0000, WrEn: 0, Wr-BE: 0100
+PC: 004000e8, Inst: 00708283, Addr: 80000001, Rd-Dt: 0ff000ff, Rd-En 1, Wr-Dt: xxxxxx00, WrEn: 0, Wr-BE: 0010
+PC: 004000ec, Inst: 00000e93, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 004000f0, Inst: 00b00e13, Addr: 0000000b, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xx000000, WrEn: 0, Wr-BE: 1000
+PC: 004000f4, Inst: 15d29c63, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0110
+PC: 004000f8, Inst: 00c00e13, Addr: 0000000c, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxxxxxx, WrEn: 0, Wr-BE: 0001
+PC: 004000fc, Inst: 00000213, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 00400100, Inst: 7fc00097, Addr: 80000100, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 0000000c, WrEn: 0, Wr-BE: 0001
+PC: 00400104, Inst: f0108093, Addr: 80000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00010000, WrEn: 0, Wr-BE: 0010
+PC: 00400108, Inst: 00108183, Addr: 80000002, Rd-Dt: 0ff000ff, Rd-En 1, Wr-Dt: 00010000, WrEn: 0, Wr-BE: 0100
+PC: 0040010c, Inst: 00018313, Addr: fffffff0, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 00400110, Inst: ff000e93, Addr: fffffff0, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxxxxxx, WrEn: 0, Wr-BE: 0001
+PC: 00400114, Inst: 13d31c63, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: fffff000, WrEn: 0, Wr-BE: 0110
+PC: 00400118, Inst: 00120213, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000100, WrEn: 0, Wr-BE: 0010
+PC: 0040011c, Inst: 00200293, Addr: 00000002, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxx0000, WrEn: 0, Wr-BE: 0100
+PC: 00400120, Inst: fe5210e3, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000002, WrEn: 0, Wr-BE: 0011
+PC: 00400100, Inst: 7fc00097, Addr: 80000100, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 0000000c, WrEn: 0, Wr-BE: 0001
+PC: 00400104, Inst: f0108093, Addr: 80000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00010000, WrEn: 0, Wr-BE: 0010
+PC: 00400108, Inst: 00108183, Addr: 80000002, Rd-Dt: 0ff000ff, Rd-En 1, Wr-Dt: 00010000, WrEn: 0, Wr-BE: 0100
+PC: 0040010c, Inst: 00018313, Addr: fffffff0, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 00400110, Inst: ff000e93, Addr: fffffff0, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxxxxxx, WrEn: 0, Wr-BE: 0001
+PC: 00400114, Inst: 13d31c63, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: fffff000, WrEn: 0, Wr-BE: 0110
+PC: 00400118, Inst: 00120213, Addr: 00000002, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00010000, WrEn: 0, Wr-BE: 0100
+PC: 0040011c, Inst: 00200293, Addr: 00000002, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxx0000, WrEn: 0, Wr-BE: 0100
+PC: 00400120, Inst: fe5210e3, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000200, WrEn: 0, Wr-BE: 0110
+PC: 00400124, Inst: 00d00e13, Addr: 0000000d, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxxxx00, WrEn: 0, Wr-BE: 0010
+PC: 00400128, Inst: 00000213, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 0040012c, Inst: 7fc00097, Addr: 8000012c, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 0000000d, WrEn: 0, Wr-BE: 0001
+PC: 00400130, Inst: ed608093, Addr: 80000002, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxx0000, WrEn: 0, Wr-BE: 0100
+PC: 00400134, Inst: 00108183, Addr: 80000003, Rd-Dt: 0ff000ff, Rd-En 1, Wr-Dt: 02000000, WrEn: 0, Wr-BE: 1000
+PC: 00400138, Inst: 00000013, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 0040013c, Inst: 00018313, Addr: 0000000f, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 1000
+PC: 00400140, Inst: 00f00e93, Addr: 0000000f, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xx000000, WrEn: 0, Wr-BE: 1000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_top_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:08 ; elapsed = 00:00:13 . Memory (MB): peak = 937.109 ; gain = 0.000
+run all
+PC: 00400144, Inst: 11d31463, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000f00, WrEn: 0, Wr-BE: 0110
+PC: 00400148, Inst: 00120213, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000200, WrEn: 0, Wr-BE: 0010
+PC: 0040014c, Inst: 00200293, Addr: 00000002, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxx0000, WrEn: 0, Wr-BE: 0100
+PC: 00400150, Inst: fc521ee3, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000002, WrEn: 0, Wr-BE: 0011
+PC: 0040012c, Inst: 7fc00097, Addr: 8000012c, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 0000000d, WrEn: 0, Wr-BE: 0001
+PC: 00400130, Inst: ed608093, Addr: 80000002, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxx0000, WrEn: 0, Wr-BE: 0100
+PC: 00400134, Inst: 00108183, Addr: 80000003, Rd-Dt: 0ff000ff, Rd-En 1, Wr-Dt: 02000000, WrEn: 0, Wr-BE: 1000
+PC: 00400138, Inst: 00000013, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 0040013c, Inst: 00018313, Addr: 0000000f, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 1000
+PC: 00400140, Inst: 00f00e93, Addr: 0000000f, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xx000000, WrEn: 0, Wr-BE: 1000
+PC: 00400144, Inst: 11d31463, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000f00, WrEn: 0, Wr-BE: 0110
+PC: 00400148, Inst: 00120213, Addr: 00000002, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00020000, WrEn: 0, Wr-BE: 0100
+PC: 0040014c, Inst: 00200293, Addr: 00000002, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxx0000, WrEn: 0, Wr-BE: 0100
+PC: 00400150, Inst: fc521ee3, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000200, WrEn: 0, Wr-BE: 0110
+PC: 00400154, Inst: 00e00e13, Addr: 0000000e, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxx0000, WrEn: 0, Wr-BE: 0100
+PC: 00400158, Inst: 00000213, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 0040015c, Inst: 7fc00097, Addr: 8000015c, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 0000000e, WrEn: 0, Wr-BE: 0001
+PC: 00400160, Inst: ea408093, Addr: 80000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 00400164, Inst: 00108183, Addr: 80000001, Rd-Dt: 0ff000ff, Rd-En 1, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0010
+PC: 00400168, Inst: 00000013, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 0040016c, Inst: 00000013, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 00400170, Inst: 00018313, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 00400174, Inst: 00000e93, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 00400178, Inst: 0dd31a63, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0110
+PC: 0040017c, Inst: 00120213, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0010
+PC: 00400180, Inst: 00200293, Addr: 00000002, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxx0000, WrEn: 0, Wr-BE: 0100
+PC: 00400184, Inst: fc521ce3, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000002, WrEn: 0, Wr-BE: 0011
+PC: 0040015c, Inst: 7fc00097, Addr: 8000015c, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 0000000e, WrEn: 0, Wr-BE: 0001
+PC: 00400160, Inst: ea408093, Addr: 80000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000001, WrEn: 0, Wr-BE: 0001
+PC: 00400164, Inst: 00108183, Addr: 80000001, Rd-Dt: 0ff000ff, Rd-En 1, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0010
+PC: 00400168, Inst: 00000013, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 0040016c, Inst: 00000013, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 00400170, Inst: 00018313, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 00400174, Inst: 00000e93, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 00400178, Inst: 0dd31a63, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0110
+PC: 0040017c, Inst: 00120213, Addr: 00000002, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0100
+PC: 00400180, Inst: 00200293, Addr: 00000002, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxx0000, WrEn: 0, Wr-BE: 0100
+PC: 00400184, Inst: fc521ce3, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000200, WrEn: 0, Wr-BE: 0110
+PC: 00400188, Inst: 00f00e13, Addr: 0000000f, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xx000000, WrEn: 0, Wr-BE: 1000
+PC: 0040018c, Inst: 00000213, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 00400190, Inst: 7fc00097, Addr: 80000190, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 0000000f, WrEn: 0, Wr-BE: 0001
+PC: 00400194, Inst: e7108093, Addr: 80000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxxxx00, WrEn: 0, Wr-BE: 0010
+PC: 00400198, Inst: 00108183, Addr: 80000002, Rd-Dt: 0ff000ff, Rd-En 1, Wr-Dt: 00010000, WrEn: 0, Wr-BE: 0100
+PC: 0040019c, Inst: ff000e93, Addr: fffffff0, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxxxxxx, WrEn: 0, Wr-BE: 0001
+PC: 004001a0, Inst: 0bd19663, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: fffff000, WrEn: 0, Wr-BE: 0110
+PC: 004001a4, Inst: 00120213, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000100, WrEn: 0, Wr-BE: 0010
+PC: 004001a8, Inst: 00200293, Addr: 00000002, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxx0000, WrEn: 0, Wr-BE: 0100
+PC: 004001ac, Inst: fe5212e3, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000002, WrEn: 0, Wr-BE: 0011
+PC: 00400190, Inst: 7fc00097, Addr: 80000190, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 0000000f, WrEn: 0, Wr-BE: 0001
+PC: 00400194, Inst: e7108093, Addr: 80000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxxxx00, WrEn: 0, Wr-BE: 0010
+PC: 00400198, Inst: 00108183, Addr: 80000002, Rd-Dt: 0ff000ff, Rd-En 1, Wr-Dt: 00010000, WrEn: 0, Wr-BE: 0100
+PC: 0040019c, Inst: ff000e93, Addr: fffffff0, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxxxxxx, WrEn: 0, Wr-BE: 0001
+PC: 004001a0, Inst: 0bd19663, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: fffff000, WrEn: 0, Wr-BE: 0110
+PC: 004001a4, Inst: 00120213, Addr: 00000002, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00010000, WrEn: 0, Wr-BE: 0100
+PC: 004001a8, Inst: 00200293, Addr: 00000002, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxx0000, WrEn: 0, Wr-BE: 0100
+PC: 004001ac, Inst: fe5212e3, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000200, WrEn: 0, Wr-BE: 0110
+PC: 004001b0, Inst: 01000e13, Addr: 00000010, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxxxxxx, WrEn: 0, Wr-BE: 0001
+PC: 004001b4, Inst: 00000213, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 004001b8, Inst: 7fc00097, Addr: 800001b8, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000010, WrEn: 0, Wr-BE: 0001
+PC: 004001bc, Inst: e4a08093, Addr: 80000002, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxx0000, WrEn: 0, Wr-BE: 0100
+PC: 004001c0, Inst: 00000013, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 004001c4, Inst: 00108183, Addr: 80000003, Rd-Dt: 0ff000ff, Rd-En 1, Wr-Dt: 02000000, WrEn: 0, Wr-BE: 1000
+PC: 004001c8, Inst: 00f00e93, Addr: 0000000f, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xx000000, WrEn: 0, Wr-BE: 1000
+PC: 004001cc, Inst: 09d19063, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000f00, WrEn: 0, Wr-BE: 0110
+PC: 004001d0, Inst: 00120213, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000200, WrEn: 0, Wr-BE: 0010
+PC: 004001d4, Inst: 00200293, Addr: 00000002, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxx0000, WrEn: 0, Wr-BE: 0100
+PC: 004001d8, Inst: fe5210e3, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000002, WrEn: 0, Wr-BE: 0011
+PC: 004001b8, Inst: 7fc00097, Addr: 800001b8, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000010, WrEn: 0, Wr-BE: 0001
+PC: 004001bc, Inst: e4a08093, Addr: 80000002, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxx0000, WrEn: 0, Wr-BE: 0100
+PC: 004001c0, Inst: 00000013, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 004001c4, Inst: 00108183, Addr: 80000003, Rd-Dt: 0ff000ff, Rd-En 1, Wr-Dt: 02000000, WrEn: 0, Wr-BE: 1000
+PC: 004001c8, Inst: 00f00e93, Addr: 0000000f, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xx000000, WrEn: 0, Wr-BE: 1000
+PC: 004001cc, Inst: 09d19063, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000f00, WrEn: 0, Wr-BE: 0110
+PC: 004001d0, Inst: 00120213, Addr: 00000002, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00020000, WrEn: 0, Wr-BE: 0100
+PC: 004001d4, Inst: 00200293, Addr: 00000002, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxx0000, WrEn: 0, Wr-BE: 0100
+PC: 004001d8, Inst: fe5210e3, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000200, WrEn: 0, Wr-BE: 0110
+PC: 004001dc, Inst: 01100e13, Addr: 00000011, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxxxx00, WrEn: 0, Wr-BE: 0010
+PC: 004001e0, Inst: 00000213, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 004001e4, Inst: 7fc00097, Addr: 800001e4, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000011, WrEn: 0, Wr-BE: 0001
+PC: 004001e8, Inst: e1c08093, Addr: 80000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000011, WrEn: 0, Wr-BE: 0001
+PC: 004001ec, Inst: 00000013, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 004001f0, Inst: 00000013, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 004001f4, Inst: 00108183, Addr: 80000001, Rd-Dt: 0ff000ff, Rd-En 1, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0010
+PC: 004001f8, Inst: 00000e93, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 004001fc, Inst: 05d19863, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0110
+PC: 00400200, Inst: 00120213, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0010
+PC: 00400204, Inst: 00200293, Addr: 00000002, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxx0000, WrEn: 0, Wr-BE: 0100
+PC: 00400208, Inst: fc521ee3, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000002, WrEn: 0, Wr-BE: 0011
+PC: 004001e4, Inst: 7fc00097, Addr: 800001e4, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000011, WrEn: 0, Wr-BE: 0001
+PC: 004001e8, Inst: e1c08093, Addr: 80000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000011, WrEn: 0, Wr-BE: 0001
+PC: 004001ec, Inst: 00000013, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 004001f0, Inst: 00000013, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 004001f4, Inst: 00108183, Addr: 80000001, Rd-Dt: 0ff000ff, Rd-En 1, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0010
+PC: 004001f8, Inst: 00000e93, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 004001fc, Inst: 05d19863, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0110
+PC: 00400200, Inst: 00120213, Addr: 00000002, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0100
+PC: 00400204, Inst: 00200293, Addr: 00000002, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxx0000, WrEn: 0, Wr-BE: 0100
+PC: 00400208, Inst: fc521ee3, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000200, WrEn: 0, Wr-BE: 0110
+PC: 0040020c, Inst: 7fc00297, Addr: 8000020c, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000011, WrEn: 0, Wr-BE: 0001
+PC: 00400210, Inst: df428293, Addr: 80000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxxxxxx, WrEn: 0, Wr-BE: 0001
+PC: 00400214, Inst: 00028103, Addr: 80000000, Rd-Dt: 0ff000ff, Rd-En 1, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 00400218, Inst: 00200113, Addr: 00000002, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: ffff0000, WrEn: 0, Wr-BE: 0100
+PC: 0040021c, Inst: 00200e93, Addr: 00000002, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00020000, WrEn: 0, Wr-BE: 0100
+PC: 00400220, Inst: 01200e13, Addr: 00000012, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxx0000, WrEn: 0, Wr-BE: 0100
+PC: 00400224, Inst: 03d11463, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000200, WrEn: 0, Wr-BE: 0110
+PC: 00400228, Inst: 7fc00297, Addr: 80000228, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000012, WrEn: 0, Wr-BE: 0001
+PC: 0040022c, Inst: dd828293, Addr: 80000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxxxxxx, WrEn: 0, Wr-BE: 0001
+PC: 00400230, Inst: 00028103, Addr: 80000000, Rd-Dt: 0ff000ff, Rd-En 1, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 00400234, Inst: 00000013, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 00400238, Inst: 00200113, Addr: 00000002, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: ffff0000, WrEn: 0, Wr-BE: 0100
+PC: 0040023c, Inst: 00200e93, Addr: 00000002, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00020000, WrEn: 0, Wr-BE: 0100
+PC: 00400240, Inst: 01300e13, Addr: 00000013, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xx000000, WrEn: 0, Wr-BE: 1000
+PC: 00400244, Inst: 01d11463, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000200, WrEn: 0, Wr-BE: 0110
+PC: 00400248, Inst: 01c01a63, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000013, WrEn: 0, Wr-BE: 0011
+PC: 0040025c, Inst: ff000513, Addr: fffffff0, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxxxxxx, WrEn: 0, Wr-BE: 0001
+PC: 00400260, Inst: 00100593, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0010
+PC: 00400264, Inst: 00b52023, Addr: fffffff0, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000001, WrEn: 1, Wr-BE: 1111
+Pass
+$finish called at time : 2165 ns : File "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sim_1/new/tb_top.sv" Line 31
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_top' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_top_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/adder.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/alu.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/alu_control.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu_control
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/control_transfer.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_transfer
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/data_memory_interface.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_memory_interface
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/example_data_memory.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module example_data_memory
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/example_data_memory_bus.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module example_data_memory_bus
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/example_text_memory.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module example_text_memory
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/example_text_memory_bus.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module example_text_memory_bus
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/immediate_generator.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module immediate_generator
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/instruction_decoder.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instruction_decoder
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/multiplexer.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplexer
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/multiplexer2.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplexer2
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/multiplexer4.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplexer4
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/multiplexer8.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplexer8
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/regfile.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/register.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/riscv_core.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module riscv_core
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/singlecycle_control.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module singlecycle_control
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/singlecycle_ctlpath.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module singlecycle_ctlpath
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/singlecycle_datapath.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module singlecycle_datapath
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/toplevel.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module toplevel
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sim_1/new/tb_top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_top
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.sim/sim_1/behav/xsim'
+"xelab -wto 8bef7ed51f184b6e9f2db301dd31fd34 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_top_behav xil_defaultlib.tb_top xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 8bef7ed51f184b6e9f2db301dd31fd34 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_top_behav xil_defaultlib.tb_top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/toplevel.sv" Line 4. Module toplevel doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/riscv_core.sv" Line 4. Module riscv_core doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/singlecycle_datapath.sv" Line 4. Module singlecycle_datapath doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/adder.sv" Line 5. Module adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/adder.sv" Line 5. Module adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/alu.sv" Line 4. Module alu doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/multiplexer4.sv" Line 4. Module multiplexer4 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/multiplexer.sv" Line 5. Module multiplexer(CHANNELS=4) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/multiplexer2.sv" Line 5. Module multiplexer2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/multiplexer.sv" Line 5. Module multiplexer_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/multiplexer2.sv" Line 5. Module multiplexer2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/multiplexer.sv" Line 5. Module multiplexer_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/multiplexer8.sv" Line 4. Module multiplexer8 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/multiplexer.sv" Line 5. Module multiplexer(CHANNELS=8) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/register.sv" Line 4. Module register(INITIAL=32'b010000000000000000000000) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/regfile.sv" Line 4. Module regfile doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/instruction_decoder.sv" Line 4. Module instruction_decoder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/immediate_generator.sv" Line 4. Module immediate_generator doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/singlecycle_ctlpath.sv" Line 4. Module singlecycle_ctlpath doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/singlecycle_control.sv" Line 4. Module singlecycle_control doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/control_transfer.sv" Line 4. Module control_transfer doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/alu_control.sv" Line 4. Module alu_control doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/data_memory_interface.sv" Line 4. Module data_memory_interface doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/example_text_memory_bus.sv" Line 4. Module example_text_memory_bus doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/example_text_memory.sv" Line 4. Module example_text_memory doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/example_data_memory_bus.sv" Line 4. Module example_data_memory_bus doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/example_data_memory.sv" Line 4. Module example_data_memory doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.multiplexer(CHANNELS=4)
+Compiling module xil_defaultlib.multiplexer4
+Compiling module xil_defaultlib.multiplexer_default
+Compiling module xil_defaultlib.multiplexer2
+Compiling module xil_defaultlib.multiplexer(CHANNELS=8)
+Compiling module xil_defaultlib.multiplexer8
+Compiling module xil_defaultlib.register(INITIAL=32'b01000000000...
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.instruction_decoder
+Compiling module xil_defaultlib.immediate_generator
+Compiling module xil_defaultlib.singlecycle_datapath
+Compiling module xil_defaultlib.singlecycle_control
+Compiling module xil_defaultlib.control_transfer
+Compiling module xil_defaultlib.alu_control
+Compiling module xil_defaultlib.singlecycle_ctlpath
+Compiling module xil_defaultlib.data_memory_interface
+Compiling module xil_defaultlib.riscv_core
+Compiling module xil_defaultlib.example_text_memory
+Compiling module xil_defaultlib.example_text_memory_bus
+Compiling module xil_defaultlib.example_data_memory
+Compiling module xil_defaultlib.example_data_memory_bus
+Compiling module xil_defaultlib.toplevel
+Compiling module xil_defaultlib.tb_top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_top_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+PC: 00400000, Inst: 7fc00097, Addr: 80000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxxxxxx, WrEn: 0, Wr-BE: 0001
+PC: 00400004, Inst: 00008093, Addr: 80000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 00400008, Inst: 00008183, Addr: 80000000, Rd-Dt: 0ff000ff, Rd-En 1, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 0040000c, Inst: fff00e93, Addr: ffffffff, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xx000000, WrEn: 0, Wr-BE: 1000
+PC: 00400010, Inst: 00200e13, Addr: 00000002, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxx0000, WrEn: 0, Wr-BE: 0100
+PC: 00400014, Inst: 23d19c63, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: ffffff00, WrEn: 0, Wr-BE: 0110
+PC: 00400018, Inst: 7fc00097, Addr: 80000018, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000002, WrEn: 0, Wr-BE: 0001
+PC: 0040001c, Inst: fe808093, Addr: 80000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxxxxxx, WrEn: 0, Wr-BE: 0001
+PC: 00400020, Inst: 00108183, Addr: 80000001, Rd-Dt: 0ff000ff, Rd-En 1, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0010
+PC: 00400024, Inst: 00000e93, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 00400028, Inst: 00300e13, Addr: 00000003, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 1000
+PC: 0040002c, Inst: 23d19063, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0110
+PC: 00400030, Inst: 7fc00097, Addr: 80000030, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000003, WrEn: 0, Wr-BE: 0001
+PC: 00400034, Inst: fd008093, Addr: 80000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxxxxxx, WrEn: 0, Wr-BE: 0001
+PC: 00400038, Inst: 00208183, Addr: 80000002, Rd-Dt: 0ff000ff, Rd-En 1, Wr-Dt: xxxx0000, WrEn: 0, Wr-BE: 0100
+PC: 0040003c, Inst: ff000e93, Addr: fffffff0, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxxxxxx, WrEn: 0, Wr-BE: 0001
+PC: 00400040, Inst: 00400e13, Addr: 00000004, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxxxxxx, WrEn: 0, Wr-BE: 0001
+PC: 00400044, Inst: 21d19463, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: fffff000, WrEn: 0, Wr-BE: 0110
+PC: 00400048, Inst: 7fc00097, Addr: 80000048, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000004, WrEn: 0, Wr-BE: 0001
+PC: 0040004c, Inst: fb808093, Addr: 80000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxxxxxx, WrEn: 0, Wr-BE: 0001
+PC: 00400050, Inst: 00308183, Addr: 80000003, Rd-Dt: 0ff000ff, Rd-En 1, Wr-Dt: f0000000, WrEn: 0, Wr-BE: 1000
+PC: 00400054, Inst: 00f00e93, Addr: 0000000f, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xx000000, WrEn: 0, Wr-BE: 1000
+PC: 00400058, Inst: 00500e13, Addr: 00000005, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxxxx00, WrEn: 0, Wr-BE: 0010
+PC: 0040005c, Inst: 1fd19863, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000f00, WrEn: 0, Wr-BE: 0110
+PC: 00400060, Inst: 7fc00097, Addr: 80000060, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000005, WrEn: 0, Wr-BE: 0001
+PC: 00400064, Inst: fa308093, Addr: 80000003, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 0f000000, WrEn: 0, Wr-BE: 1000
+PC: 00400068, Inst: ffd08183, Addr: 80000000, Rd-Dt: 0ff000ff, Rd-En 1, Wr-Dt: 0000000f, WrEn: 0, Wr-BE: 0001
+PC: 0040006c, Inst: fff00e93, Addr: ffffffff, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xx000000, WrEn: 0, Wr-BE: 1000
+PC: 00400070, Inst: 00600e13, Addr: 00000006, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxx0000, WrEn: 0, Wr-BE: 0100
+PC: 00400074, Inst: 1dd19c63, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: ffffff00, WrEn: 0, Wr-BE: 0110
+PC: 00400078, Inst: 7fc00097, Addr: 80000078, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000006, WrEn: 0, Wr-BE: 0001
+PC: 0040007c, Inst: f8b08093, Addr: 80000003, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xx000000, WrEn: 0, Wr-BE: 1000
+PC: 00400080, Inst: ffe08183, Addr: 80000001, Rd-Dt: 0ff000ff, Rd-En 1, Wr-Dt: xxxxxx00, WrEn: 0, Wr-BE: 0010
+PC: 00400084, Inst: 00000e93, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 00400088, Inst: 00700e13, Addr: 00000007, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xx000000, WrEn: 0, Wr-BE: 1000
+PC: 0040008c, Inst: 1dd19063, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0110
+PC: 00400090, Inst: 7fc00097, Addr: 80000090, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000007, WrEn: 0, Wr-BE: 0001
+PC: 00400094, Inst: f7308093, Addr: 80000003, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xx000000, WrEn: 0, Wr-BE: 1000
+PC: 00400098, Inst: fff08183, Addr: 80000002, Rd-Dt: 0ff000ff, Rd-En 1, Wr-Dt: xxxx0000, WrEn: 0, Wr-BE: 0100
+PC: 0040009c, Inst: ff000e93, Addr: fffffff0, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxxxxxx, WrEn: 0, Wr-BE: 0001
+PC: 004000a0, Inst: 00800e13, Addr: 00000008, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxxxxxx, WrEn: 0, Wr-BE: 0001
+PC: 004000a4, Inst: 1bd19463, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: fffff000, WrEn: 0, Wr-BE: 0110
+PC: 004000a8, Inst: 7fc00097, Addr: 800000a8, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000008, WrEn: 0, Wr-BE: 0001
+PC: 004000ac, Inst: f5b08093, Addr: 80000003, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xx000000, WrEn: 0, Wr-BE: 1000
+PC: 004000b0, Inst: 00008183, Addr: 80000003, Rd-Dt: 0ff000ff, Rd-En 1, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 1000
+PC: 004000b4, Inst: 00f00e93, Addr: 0000000f, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xx000000, WrEn: 0, Wr-BE: 1000
+PC: 004000b8, Inst: 00900e13, Addr: 00000009, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxxxx00, WrEn: 0, Wr-BE: 0010
+PC: 004000bc, Inst: 19d19863, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000f00, WrEn: 0, Wr-BE: 0110
+PC: 004000c0, Inst: 7fc00097, Addr: 800000c0, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000009, WrEn: 0, Wr-BE: 0001
+PC: 004000c4, Inst: f4008093, Addr: 80000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 004000c8, Inst: fe008093, Addr: 7fffffe0, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 004000cc, Inst: 02008283, Addr: 80000000, Rd-Dt: 0ff000ff, Rd-En 1, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 004000d0, Inst: fff00e93, Addr: ffffffff, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xx000000, WrEn: 0, Wr-BE: 1000
+PC: 004000d4, Inst: 00a00e13, Addr: 0000000a, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxx0000, WrEn: 0, Wr-BE: 0100
+PC: 004000d8, Inst: 17d29a63, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: ffffff00, WrEn: 0, Wr-BE: 0110
+PC: 004000dc, Inst: 7fc00097, Addr: 800000dc, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 0000000a, WrEn: 0, Wr-BE: 0001
+PC: 004000e0, Inst: f2408093, Addr: 80000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxxxxxx, WrEn: 0, Wr-BE: 0001
+PC: 004000e4, Inst: ffa08093, Addr: 7ffffffa, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxx0000, WrEn: 0, Wr-BE: 0100
+PC: 004000e8, Inst: 00708283, Addr: 80000001, Rd-Dt: 0ff000ff, Rd-En 1, Wr-Dt: xxxxxx00, WrEn: 0, Wr-BE: 0010
+PC: 004000ec, Inst: 00000e93, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 004000f0, Inst: 00b00e13, Addr: 0000000b, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xx000000, WrEn: 0, Wr-BE: 1000
+PC: 004000f4, Inst: 15d29c63, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0110
+PC: 004000f8, Inst: 00c00e13, Addr: 0000000c, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxxxxxx, WrEn: 0, Wr-BE: 0001
+PC: 004000fc, Inst: 00000213, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 00400100, Inst: 7fc00097, Addr: 80000100, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 0000000c, WrEn: 0, Wr-BE: 0001
+PC: 00400104, Inst: f0108093, Addr: 80000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00010000, WrEn: 0, Wr-BE: 0010
+PC: 00400108, Inst: 00108183, Addr: 80000002, Rd-Dt: 0ff000ff, Rd-En 1, Wr-Dt: 00010000, WrEn: 0, Wr-BE: 0100
+PC: 0040010c, Inst: 00018313, Addr: fffffff0, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 00400110, Inst: ff000e93, Addr: fffffff0, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxxxxxx, WrEn: 0, Wr-BE: 0001
+PC: 00400114, Inst: 13d31c63, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: fffff000, WrEn: 0, Wr-BE: 0110
+PC: 00400118, Inst: 00120213, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000100, WrEn: 0, Wr-BE: 0010
+PC: 0040011c, Inst: 00200293, Addr: 00000002, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxx0000, WrEn: 0, Wr-BE: 0100
+PC: 00400120, Inst: fe5210e3, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000002, WrEn: 0, Wr-BE: 0011
+PC: 00400100, Inst: 7fc00097, Addr: 80000100, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 0000000c, WrEn: 0, Wr-BE: 0001
+PC: 00400104, Inst: f0108093, Addr: 80000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00010000, WrEn: 0, Wr-BE: 0010
+PC: 00400108, Inst: 00108183, Addr: 80000002, Rd-Dt: 0ff000ff, Rd-En 1, Wr-Dt: 00010000, WrEn: 0, Wr-BE: 0100
+PC: 0040010c, Inst: 00018313, Addr: fffffff0, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 00400110, Inst: ff000e93, Addr: fffffff0, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxxxxxx, WrEn: 0, Wr-BE: 0001
+PC: 00400114, Inst: 13d31c63, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: fffff000, WrEn: 0, Wr-BE: 0110
+PC: 00400118, Inst: 00120213, Addr: 00000002, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00010000, WrEn: 0, Wr-BE: 0100
+PC: 0040011c, Inst: 00200293, Addr: 00000002, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxx0000, WrEn: 0, Wr-BE: 0100
+PC: 00400120, Inst: fe5210e3, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000200, WrEn: 0, Wr-BE: 0110
+PC: 00400124, Inst: 00d00e13, Addr: 0000000d, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxxxx00, WrEn: 0, Wr-BE: 0010
+PC: 00400128, Inst: 00000213, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 0040012c, Inst: 7fc00097, Addr: 8000012c, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 0000000d, WrEn: 0, Wr-BE: 0001
+PC: 00400130, Inst: ed608093, Addr: 80000002, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxx0000, WrEn: 0, Wr-BE: 0100
+PC: 00400134, Inst: 00108183, Addr: 80000003, Rd-Dt: 0ff000ff, Rd-En 1, Wr-Dt: 02000000, WrEn: 0, Wr-BE: 1000
+PC: 00400138, Inst: 00000013, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 0040013c, Inst: 00018313, Addr: 0000000f, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 1000
+PC: 00400140, Inst: 00f00e93, Addr: 0000000f, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xx000000, WrEn: 0, Wr-BE: 1000
+relaunch_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:10 . Memory (MB): peak = 958.383 ; gain = 0.000
+run all
+PC: 00400144, Inst: 11d31463, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000f00, WrEn: 0, Wr-BE: 0110
+PC: 00400148, Inst: 00120213, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000200, WrEn: 0, Wr-BE: 0010
+PC: 0040014c, Inst: 00200293, Addr: 00000002, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxx0000, WrEn: 0, Wr-BE: 0100
+PC: 00400150, Inst: fc521ee3, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000002, WrEn: 0, Wr-BE: 0011
+PC: 0040012c, Inst: 7fc00097, Addr: 8000012c, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 0000000d, WrEn: 0, Wr-BE: 0001
+PC: 00400130, Inst: ed608093, Addr: 80000002, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxx0000, WrEn: 0, Wr-BE: 0100
+PC: 00400134, Inst: 00108183, Addr: 80000003, Rd-Dt: 0ff000ff, Rd-En 1, Wr-Dt: 02000000, WrEn: 0, Wr-BE: 1000
+PC: 00400138, Inst: 00000013, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 0040013c, Inst: 00018313, Addr: 0000000f, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 1000
+PC: 00400140, Inst: 00f00e93, Addr: 0000000f, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xx000000, WrEn: 0, Wr-BE: 1000
+PC: 00400144, Inst: 11d31463, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000f00, WrEn: 0, Wr-BE: 0110
+PC: 00400148, Inst: 00120213, Addr: 00000002, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00020000, WrEn: 0, Wr-BE: 0100
+PC: 0040014c, Inst: 00200293, Addr: 00000002, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxx0000, WrEn: 0, Wr-BE: 0100
+PC: 00400150, Inst: fc521ee3, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000200, WrEn: 0, Wr-BE: 0110
+PC: 00400154, Inst: 00e00e13, Addr: 0000000e, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxx0000, WrEn: 0, Wr-BE: 0100
+PC: 00400158, Inst: 00000213, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 0040015c, Inst: 7fc00097, Addr: 8000015c, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 0000000e, WrEn: 0, Wr-BE: 0001
+PC: 00400160, Inst: ea408093, Addr: 80000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 00400164, Inst: 00108183, Addr: 80000001, Rd-Dt: 0ff000ff, Rd-En 1, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0010
+PC: 00400168, Inst: 00000013, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 0040016c, Inst: 00000013, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 00400170, Inst: 00018313, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 00400174, Inst: 00000e93, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 00400178, Inst: 0dd31a63, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0110
+PC: 0040017c, Inst: 00120213, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0010
+PC: 00400180, Inst: 00200293, Addr: 00000002, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxx0000, WrEn: 0, Wr-BE: 0100
+PC: 00400184, Inst: fc521ce3, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000002, WrEn: 0, Wr-BE: 0011
+PC: 0040015c, Inst: 7fc00097, Addr: 8000015c, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 0000000e, WrEn: 0, Wr-BE: 0001
+PC: 00400160, Inst: ea408093, Addr: 80000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000001, WrEn: 0, Wr-BE: 0001
+PC: 00400164, Inst: 00108183, Addr: 80000001, Rd-Dt: 0ff000ff, Rd-En 1, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0010
+PC: 00400168, Inst: 00000013, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 0040016c, Inst: 00000013, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 00400170, Inst: 00018313, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 00400174, Inst: 00000e93, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 00400178, Inst: 0dd31a63, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0110
+PC: 0040017c, Inst: 00120213, Addr: 00000002, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0100
+PC: 00400180, Inst: 00200293, Addr: 00000002, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxx0000, WrEn: 0, Wr-BE: 0100
+PC: 00400184, Inst: fc521ce3, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000200, WrEn: 0, Wr-BE: 0110
+PC: 00400188, Inst: 00f00e13, Addr: 0000000f, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xx000000, WrEn: 0, Wr-BE: 1000
+PC: 0040018c, Inst: 00000213, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 00400190, Inst: 7fc00097, Addr: 80000190, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 0000000f, WrEn: 0, Wr-BE: 0001
+PC: 00400194, Inst: e7108093, Addr: 80000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxxxx00, WrEn: 0, Wr-BE: 0010
+PC: 00400198, Inst: 00108183, Addr: 80000002, Rd-Dt: 0ff000ff, Rd-En 1, Wr-Dt: 00010000, WrEn: 0, Wr-BE: 0100
+PC: 0040019c, Inst: ff000e93, Addr: fffffff0, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxxxxxx, WrEn: 0, Wr-BE: 0001
+PC: 004001a0, Inst: 0bd19663, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: fffff000, WrEn: 0, Wr-BE: 0110
+PC: 004001a4, Inst: 00120213, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000100, WrEn: 0, Wr-BE: 0010
+PC: 004001a8, Inst: 00200293, Addr: 00000002, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxx0000, WrEn: 0, Wr-BE: 0100
+PC: 004001ac, Inst: fe5212e3, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000002, WrEn: 0, Wr-BE: 0011
+PC: 00400190, Inst: 7fc00097, Addr: 80000190, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 0000000f, WrEn: 0, Wr-BE: 0001
+PC: 00400194, Inst: e7108093, Addr: 80000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxxxx00, WrEn: 0, Wr-BE: 0010
+PC: 00400198, Inst: 00108183, Addr: 80000002, Rd-Dt: 0ff000ff, Rd-En 1, Wr-Dt: 00010000, WrEn: 0, Wr-BE: 0100
+PC: 0040019c, Inst: ff000e93, Addr: fffffff0, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxxxxxx, WrEn: 0, Wr-BE: 0001
+PC: 004001a0, Inst: 0bd19663, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: fffff000, WrEn: 0, Wr-BE: 0110
+PC: 004001a4, Inst: 00120213, Addr: 00000002, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00010000, WrEn: 0, Wr-BE: 0100
+PC: 004001a8, Inst: 00200293, Addr: 00000002, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxx0000, WrEn: 0, Wr-BE: 0100
+PC: 004001ac, Inst: fe5212e3, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000200, WrEn: 0, Wr-BE: 0110
+PC: 004001b0, Inst: 01000e13, Addr: 00000010, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxxxxxx, WrEn: 0, Wr-BE: 0001
+PC: 004001b4, Inst: 00000213, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 004001b8, Inst: 7fc00097, Addr: 800001b8, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000010, WrEn: 0, Wr-BE: 0001
+PC: 004001bc, Inst: e4a08093, Addr: 80000002, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxx0000, WrEn: 0, Wr-BE: 0100
+PC: 004001c0, Inst: 00000013, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 004001c4, Inst: 00108183, Addr: 80000003, Rd-Dt: 0ff000ff, Rd-En 1, Wr-Dt: 02000000, WrEn: 0, Wr-BE: 1000
+PC: 004001c8, Inst: 00f00e93, Addr: 0000000f, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xx000000, WrEn: 0, Wr-BE: 1000
+PC: 004001cc, Inst: 09d19063, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000f00, WrEn: 0, Wr-BE: 0110
+PC: 004001d0, Inst: 00120213, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000200, WrEn: 0, Wr-BE: 0010
+PC: 004001d4, Inst: 00200293, Addr: 00000002, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxx0000, WrEn: 0, Wr-BE: 0100
+PC: 004001d8, Inst: fe5210e3, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000002, WrEn: 0, Wr-BE: 0011
+PC: 004001b8, Inst: 7fc00097, Addr: 800001b8, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000010, WrEn: 0, Wr-BE: 0001
+PC: 004001bc, Inst: e4a08093, Addr: 80000002, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxx0000, WrEn: 0, Wr-BE: 0100
+PC: 004001c0, Inst: 00000013, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 004001c4, Inst: 00108183, Addr: 80000003, Rd-Dt: 0ff000ff, Rd-En 1, Wr-Dt: 02000000, WrEn: 0, Wr-BE: 1000
+PC: 004001c8, Inst: 00f00e93, Addr: 0000000f, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xx000000, WrEn: 0, Wr-BE: 1000
+PC: 004001cc, Inst: 09d19063, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000f00, WrEn: 0, Wr-BE: 0110
+PC: 004001d0, Inst: 00120213, Addr: 00000002, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00020000, WrEn: 0, Wr-BE: 0100
+PC: 004001d4, Inst: 00200293, Addr: 00000002, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxx0000, WrEn: 0, Wr-BE: 0100
+PC: 004001d8, Inst: fe5210e3, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000200, WrEn: 0, Wr-BE: 0110
+PC: 004001dc, Inst: 01100e13, Addr: 00000011, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxxxx00, WrEn: 0, Wr-BE: 0010
+PC: 004001e0, Inst: 00000213, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 004001e4, Inst: 7fc00097, Addr: 800001e4, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000011, WrEn: 0, Wr-BE: 0001
+PC: 004001e8, Inst: e1c08093, Addr: 80000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000011, WrEn: 0, Wr-BE: 0001
+PC: 004001ec, Inst: 00000013, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 004001f0, Inst: 00000013, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 004001f4, Inst: 00108183, Addr: 80000001, Rd-Dt: 0ff000ff, Rd-En 1, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0010
+PC: 004001f8, Inst: 00000e93, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 004001fc, Inst: 05d19863, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0110
+PC: 00400200, Inst: 00120213, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0010
+PC: 00400204, Inst: 00200293, Addr: 00000002, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxx0000, WrEn: 0, Wr-BE: 0100
+PC: 00400208, Inst: fc521ee3, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000002, WrEn: 0, Wr-BE: 0011
+PC: 004001e4, Inst: 7fc00097, Addr: 800001e4, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000011, WrEn: 0, Wr-BE: 0001
+PC: 004001e8, Inst: e1c08093, Addr: 80000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000011, WrEn: 0, Wr-BE: 0001
+PC: 004001ec, Inst: 00000013, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 004001f0, Inst: 00000013, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 004001f4, Inst: 00108183, Addr: 80000001, Rd-Dt: 0ff000ff, Rd-En 1, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0010
+PC: 004001f8, Inst: 00000e93, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 004001fc, Inst: 05d19863, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0110
+PC: 00400200, Inst: 00120213, Addr: 00000002, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0100
+PC: 00400204, Inst: 00200293, Addr: 00000002, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxx0000, WrEn: 0, Wr-BE: 0100
+PC: 00400208, Inst: fc521ee3, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000200, WrEn: 0, Wr-BE: 0110
+PC: 0040020c, Inst: 7fc00297, Addr: 8000020c, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000011, WrEn: 0, Wr-BE: 0001
+PC: 00400210, Inst: df428293, Addr: 80000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxxxxxx, WrEn: 0, Wr-BE: 0001
+PC: 00400214, Inst: 00028103, Addr: 80000000, Rd-Dt: 0ff000ff, Rd-En 1, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 00400218, Inst: 00200113, Addr: 00000002, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: ffff0000, WrEn: 0, Wr-BE: 0100
+PC: 0040021c, Inst: 00200e93, Addr: 00000002, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00020000, WrEn: 0, Wr-BE: 0100
+PC: 00400220, Inst: 01200e13, Addr: 00000012, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxx0000, WrEn: 0, Wr-BE: 0100
+PC: 00400224, Inst: 03d11463, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000200, WrEn: 0, Wr-BE: 0110
+PC: 00400228, Inst: 7fc00297, Addr: 80000228, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000012, WrEn: 0, Wr-BE: 0001
+PC: 0040022c, Inst: dd828293, Addr: 80000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxxxxxx, WrEn: 0, Wr-BE: 0001
+PC: 00400230, Inst: 00028103, Addr: 80000000, Rd-Dt: 0ff000ff, Rd-En 1, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 00400234, Inst: 00000013, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 00400238, Inst: 00200113, Addr: 00000002, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: ffff0000, WrEn: 0, Wr-BE: 0100
+PC: 0040023c, Inst: 00200e93, Addr: 00000002, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00020000, WrEn: 0, Wr-BE: 0100
+PC: 00400240, Inst: 01300e13, Addr: 00000013, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xx000000, WrEn: 0, Wr-BE: 1000
+PC: 00400244, Inst: 01d11463, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000200, WrEn: 0, Wr-BE: 0110
+PC: 00400248, Inst: 01c01a63, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000013, WrEn: 0, Wr-BE: 0011
+PC: 0040025c, Inst: ff000513, Addr: fffffff0, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxxxxxx, WrEn: 0, Wr-BE: 0001
+PC: 00400260, Inst: 00100593, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0010
+PC: 00400264, Inst: 00b52023, Addr: fffffff0, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000001, WrEn: 1, Wr-BE: 1111
+Pass
+$finish called at time : 2165 ns : File "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sim_1/new/tb_top.sv" Line 31
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_top' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_top_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/adder.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/alu.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/alu_control.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu_control
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/control_transfer.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_transfer
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/data_memory_interface.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_memory_interface
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/example_data_memory.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module example_data_memory
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/example_data_memory_bus.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module example_data_memory_bus
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/example_text_memory.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module example_text_memory
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/example_text_memory_bus.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module example_text_memory_bus
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/immediate_generator.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module immediate_generator
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/instruction_decoder.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instruction_decoder
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/multiplexer.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplexer
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/multiplexer2.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplexer2
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/multiplexer4.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplexer4
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/multiplexer8.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplexer8
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/regfile.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/register.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/riscv_core.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module riscv_core
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/singlecycle_control.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module singlecycle_control
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/singlecycle_ctlpath.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module singlecycle_ctlpath
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/singlecycle_datapath.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module singlecycle_datapath
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/toplevel.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module toplevel
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sim_1/new/tb_top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_top
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.sim/sim_1/behav/xsim'
+"xelab -wto 8bef7ed51f184b6e9f2db301dd31fd34 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_top_behav xil_defaultlib.tb_top xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 8bef7ed51f184b6e9f2db301dd31fd34 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_top_behav xil_defaultlib.tb_top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/toplevel.sv" Line 4. Module toplevel doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/riscv_core.sv" Line 4. Module riscv_core doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/singlecycle_datapath.sv" Line 4. Module singlecycle_datapath doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/adder.sv" Line 5. Module adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/adder.sv" Line 5. Module adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/alu.sv" Line 4. Module alu doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/multiplexer4.sv" Line 4. Module multiplexer4 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/multiplexer.sv" Line 5. Module multiplexer(CHANNELS=4) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/multiplexer2.sv" Line 5. Module multiplexer2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/multiplexer.sv" Line 5. Module multiplexer_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/multiplexer2.sv" Line 5. Module multiplexer2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/multiplexer.sv" Line 5. Module multiplexer_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/multiplexer8.sv" Line 4. Module multiplexer8 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/multiplexer.sv" Line 5. Module multiplexer(CHANNELS=8) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/register.sv" Line 4. Module register(INITIAL=32'b010000000000000000000000) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/regfile.sv" Line 4. Module regfile doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/instruction_decoder.sv" Line 4. Module instruction_decoder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/immediate_generator.sv" Line 4. Module immediate_generator doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/singlecycle_ctlpath.sv" Line 4. Module singlecycle_ctlpath doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/singlecycle_control.sv" Line 4. Module singlecycle_control doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/control_transfer.sv" Line 4. Module control_transfer doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/alu_control.sv" Line 4. Module alu_control doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/data_memory_interface.sv" Line 4. Module data_memory_interface doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/example_text_memory_bus.sv" Line 4. Module example_text_memory_bus doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/example_text_memory.sv" Line 4. Module example_text_memory doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/example_data_memory_bus.sv" Line 4. Module example_data_memory_bus doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sources_1/rv/example_data_memory.sv" Line 4. Module example_data_memory doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.multiplexer(CHANNELS=4)
+Compiling module xil_defaultlib.multiplexer4
+Compiling module xil_defaultlib.multiplexer_default
+Compiling module xil_defaultlib.multiplexer2
+Compiling module xil_defaultlib.multiplexer(CHANNELS=8)
+Compiling module xil_defaultlib.multiplexer8
+Compiling module xil_defaultlib.register(INITIAL=32'b01000000000...
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.instruction_decoder
+Compiling module xil_defaultlib.immediate_generator
+Compiling module xil_defaultlib.singlecycle_datapath
+Compiling module xil_defaultlib.singlecycle_control
+Compiling module xil_defaultlib.control_transfer
+Compiling module xil_defaultlib.alu_control
+Compiling module xil_defaultlib.singlecycle_ctlpath
+Compiling module xil_defaultlib.data_memory_interface
+Compiling module xil_defaultlib.riscv_core
+Compiling module xil_defaultlib.example_text_memory
+Compiling module xil_defaultlib.example_text_memory_bus
+Compiling module xil_defaultlib.example_data_memory
+Compiling module xil_defaultlib.example_data_memory_bus
+Compiling module xil_defaultlib.toplevel
+Compiling module xil_defaultlib.tb_top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_top_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+PC: 00400000, Inst: 7fc00097, Addr: 80000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxxxxxx, WrEn: 0, Wr-BE: 0001
+PC: 00400004, Inst: 00008093, Addr: 80000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 00400008, Inst: 00008183, Addr: 80000000, Rd-Dt: 0ff000ff, Rd-En 1, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 0040000c, Inst: fff00e93, Addr: ffffffff, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xx000000, WrEn: 0, Wr-BE: 1000
+PC: 00400010, Inst: 00200e13, Addr: 00000002, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxx0000, WrEn: 0, Wr-BE: 0100
+PC: 00400014, Inst: 23d19c63, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: ffffff00, WrEn: 0, Wr-BE: 0110
+PC: 00400018, Inst: 7fc00097, Addr: 80000018, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000002, WrEn: 0, Wr-BE: 0001
+PC: 0040001c, Inst: fe808093, Addr: 80000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxxxxxx, WrEn: 0, Wr-BE: 0001
+PC: 00400020, Inst: 00108183, Addr: 80000001, Rd-Dt: 0ff000ff, Rd-En 1, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0010
+PC: 00400024, Inst: 00000e93, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 00400028, Inst: 00300e13, Addr: 00000003, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 1000
+PC: 0040002c, Inst: 23d19063, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0110
+PC: 00400030, Inst: 7fc00097, Addr: 80000030, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000003, WrEn: 0, Wr-BE: 0001
+PC: 00400034, Inst: fd008093, Addr: 80000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxxxxxx, WrEn: 0, Wr-BE: 0001
+PC: 00400038, Inst: 00208183, Addr: 80000002, Rd-Dt: 0ff000ff, Rd-En 1, Wr-Dt: xxxx0000, WrEn: 0, Wr-BE: 0100
+PC: 0040003c, Inst: ff000e93, Addr: fffffff0, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxxxxxx, WrEn: 0, Wr-BE: 0001
+PC: 00400040, Inst: 00400e13, Addr: 00000004, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxxxxxx, WrEn: 0, Wr-BE: 0001
+PC: 00400044, Inst: 21d19463, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: fffff000, WrEn: 0, Wr-BE: 0110
+PC: 00400048, Inst: 7fc00097, Addr: 80000048, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000004, WrEn: 0, Wr-BE: 0001
+PC: 0040004c, Inst: fb808093, Addr: 80000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxxxxxx, WrEn: 0, Wr-BE: 0001
+PC: 00400050, Inst: 00308183, Addr: 80000003, Rd-Dt: 0ff000ff, Rd-En 1, Wr-Dt: f0000000, WrEn: 0, Wr-BE: 1000
+PC: 00400054, Inst: 00f00e93, Addr: 0000000f, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xx000000, WrEn: 0, Wr-BE: 1000
+PC: 00400058, Inst: 00500e13, Addr: 00000005, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxxxx00, WrEn: 0, Wr-BE: 0010
+PC: 0040005c, Inst: 1fd19863, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000f00, WrEn: 0, Wr-BE: 0110
+PC: 00400060, Inst: 7fc00097, Addr: 80000060, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000005, WrEn: 0, Wr-BE: 0001
+PC: 00400064, Inst: fa308093, Addr: 80000003, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 0f000000, WrEn: 0, Wr-BE: 1000
+PC: 00400068, Inst: ffd08183, Addr: 80000000, Rd-Dt: 0ff000ff, Rd-En 1, Wr-Dt: 0000000f, WrEn: 0, Wr-BE: 0001
+PC: 0040006c, Inst: fff00e93, Addr: ffffffff, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xx000000, WrEn: 0, Wr-BE: 1000
+PC: 00400070, Inst: 00600e13, Addr: 00000006, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxx0000, WrEn: 0, Wr-BE: 0100
+PC: 00400074, Inst: 1dd19c63, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: ffffff00, WrEn: 0, Wr-BE: 0110
+PC: 00400078, Inst: 7fc00097, Addr: 80000078, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000006, WrEn: 0, Wr-BE: 0001
+PC: 0040007c, Inst: f8b08093, Addr: 80000003, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xx000000, WrEn: 0, Wr-BE: 1000
+PC: 00400080, Inst: ffe08183, Addr: 80000001, Rd-Dt: 0ff000ff, Rd-En 1, Wr-Dt: xxxxxx00, WrEn: 0, Wr-BE: 0010
+PC: 00400084, Inst: 00000e93, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 00400088, Inst: 00700e13, Addr: 00000007, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xx000000, WrEn: 0, Wr-BE: 1000
+PC: 0040008c, Inst: 1dd19063, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0110
+PC: 00400090, Inst: 7fc00097, Addr: 80000090, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000007, WrEn: 0, Wr-BE: 0001
+PC: 00400094, Inst: f7308093, Addr: 80000003, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xx000000, WrEn: 0, Wr-BE: 1000
+PC: 00400098, Inst: fff08183, Addr: 80000002, Rd-Dt: 0ff000ff, Rd-En 1, Wr-Dt: xxxx0000, WrEn: 0, Wr-BE: 0100
+PC: 0040009c, Inst: ff000e93, Addr: fffffff0, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxxxxxx, WrEn: 0, Wr-BE: 0001
+PC: 004000a0, Inst: 00800e13, Addr: 00000008, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxxxxxx, WrEn: 0, Wr-BE: 0001
+PC: 004000a4, Inst: 1bd19463, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: fffff000, WrEn: 0, Wr-BE: 0110
+PC: 004000a8, Inst: 7fc00097, Addr: 800000a8, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000008, WrEn: 0, Wr-BE: 0001
+PC: 004000ac, Inst: f5b08093, Addr: 80000003, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xx000000, WrEn: 0, Wr-BE: 1000
+PC: 004000b0, Inst: 00008183, Addr: 80000003, Rd-Dt: 0ff000ff, Rd-En 1, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 1000
+PC: 004000b4, Inst: 00f00e93, Addr: 0000000f, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xx000000, WrEn: 0, Wr-BE: 1000
+PC: 004000b8, Inst: 00900e13, Addr: 00000009, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxxxx00, WrEn: 0, Wr-BE: 0010
+PC: 004000bc, Inst: 19d19863, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000f00, WrEn: 0, Wr-BE: 0110
+PC: 004000c0, Inst: 7fc00097, Addr: 800000c0, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000009, WrEn: 0, Wr-BE: 0001
+PC: 004000c4, Inst: f4008093, Addr: 80000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 004000c8, Inst: fe008093, Addr: 7fffffe0, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 004000cc, Inst: 02008283, Addr: 80000000, Rd-Dt: 0ff000ff, Rd-En 1, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 004000d0, Inst: fff00e93, Addr: ffffffff, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xx000000, WrEn: 0, Wr-BE: 1000
+PC: 004000d4, Inst: 00a00e13, Addr: 0000000a, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxx0000, WrEn: 0, Wr-BE: 0100
+PC: 004000d8, Inst: 17d29a63, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: ffffff00, WrEn: 0, Wr-BE: 0110
+PC: 004000dc, Inst: 7fc00097, Addr: 800000dc, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 0000000a, WrEn: 0, Wr-BE: 0001
+PC: 004000e0, Inst: f2408093, Addr: 80000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxxxxxx, WrEn: 0, Wr-BE: 0001
+PC: 004000e4, Inst: ffa08093, Addr: 7ffffffa, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxx0000, WrEn: 0, Wr-BE: 0100
+PC: 004000e8, Inst: 00708283, Addr: 80000001, Rd-Dt: 0ff000ff, Rd-En 1, Wr-Dt: xxxxxx00, WrEn: 0, Wr-BE: 0010
+PC: 004000ec, Inst: 00000e93, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 004000f0, Inst: 00b00e13, Addr: 0000000b, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xx000000, WrEn: 0, Wr-BE: 1000
+PC: 004000f4, Inst: 15d29c63, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0110
+PC: 004000f8, Inst: 00c00e13, Addr: 0000000c, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxxxxxx, WrEn: 0, Wr-BE: 0001
+PC: 004000fc, Inst: 00000213, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 00400100, Inst: 7fc00097, Addr: 80000100, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 0000000c, WrEn: 0, Wr-BE: 0001
+PC: 00400104, Inst: f0108093, Addr: 80000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00010000, WrEn: 0, Wr-BE: 0010
+PC: 00400108, Inst: 00108183, Addr: 80000002, Rd-Dt: 0ff000ff, Rd-En 1, Wr-Dt: 00010000, WrEn: 0, Wr-BE: 0100
+PC: 0040010c, Inst: 00018313, Addr: fffffff0, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 00400110, Inst: ff000e93, Addr: fffffff0, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxxxxxx, WrEn: 0, Wr-BE: 0001
+PC: 00400114, Inst: 13d31c63, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: fffff000, WrEn: 0, Wr-BE: 0110
+PC: 00400118, Inst: 00120213, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000100, WrEn: 0, Wr-BE: 0010
+PC: 0040011c, Inst: 00200293, Addr: 00000002, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxx0000, WrEn: 0, Wr-BE: 0100
+PC: 00400120, Inst: fe5210e3, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000002, WrEn: 0, Wr-BE: 0011
+PC: 00400100, Inst: 7fc00097, Addr: 80000100, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 0000000c, WrEn: 0, Wr-BE: 0001
+PC: 00400104, Inst: f0108093, Addr: 80000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00010000, WrEn: 0, Wr-BE: 0010
+PC: 00400108, Inst: 00108183, Addr: 80000002, Rd-Dt: 0ff000ff, Rd-En 1, Wr-Dt: 00010000, WrEn: 0, Wr-BE: 0100
+PC: 0040010c, Inst: 00018313, Addr: fffffff0, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 00400110, Inst: ff000e93, Addr: fffffff0, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxxxxxx, WrEn: 0, Wr-BE: 0001
+PC: 00400114, Inst: 13d31c63, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: fffff000, WrEn: 0, Wr-BE: 0110
+PC: 00400118, Inst: 00120213, Addr: 00000002, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00010000, WrEn: 0, Wr-BE: 0100
+PC: 0040011c, Inst: 00200293, Addr: 00000002, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxx0000, WrEn: 0, Wr-BE: 0100
+PC: 00400120, Inst: fe5210e3, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000200, WrEn: 0, Wr-BE: 0110
+PC: 00400124, Inst: 00d00e13, Addr: 0000000d, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxxxx00, WrEn: 0, Wr-BE: 0010
+PC: 00400128, Inst: 00000213, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 0040012c, Inst: 7fc00097, Addr: 8000012c, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 0000000d, WrEn: 0, Wr-BE: 0001
+PC: 00400130, Inst: ed608093, Addr: 80000002, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxx0000, WrEn: 0, Wr-BE: 0100
+PC: 00400134, Inst: 00108183, Addr: 80000003, Rd-Dt: 0ff000ff, Rd-En 1, Wr-Dt: 02000000, WrEn: 0, Wr-BE: 1000
+PC: 00400138, Inst: 00000013, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 0040013c, Inst: 00018313, Addr: 0000000f, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 1000
+PC: 00400140, Inst: 00f00e93, Addr: 0000000f, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xx000000, WrEn: 0, Wr-BE: 1000
+relaunch_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 958.383 ; gain = 0.000
+run all
+PC: 00400144, Inst: 11d31463, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000f00, WrEn: 0, Wr-BE: 0110
+PC: 00400148, Inst: 00120213, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000200, WrEn: 0, Wr-BE: 0010
+PC: 0040014c, Inst: 00200293, Addr: 00000002, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxx0000, WrEn: 0, Wr-BE: 0100
+PC: 00400150, Inst: fc521ee3, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000002, WrEn: 0, Wr-BE: 0011
+PC: 0040012c, Inst: 7fc00097, Addr: 8000012c, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 0000000d, WrEn: 0, Wr-BE: 0001
+PC: 00400130, Inst: ed608093, Addr: 80000002, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxx0000, WrEn: 0, Wr-BE: 0100
+PC: 00400134, Inst: 00108183, Addr: 80000003, Rd-Dt: 0ff000ff, Rd-En 1, Wr-Dt: 02000000, WrEn: 0, Wr-BE: 1000
+PC: 00400138, Inst: 00000013, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 0040013c, Inst: 00018313, Addr: 0000000f, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 1000
+PC: 00400140, Inst: 00f00e93, Addr: 0000000f, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xx000000, WrEn: 0, Wr-BE: 1000
+PC: 00400144, Inst: 11d31463, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000f00, WrEn: 0, Wr-BE: 0110
+PC: 00400148, Inst: 00120213, Addr: 00000002, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00020000, WrEn: 0, Wr-BE: 0100
+PC: 0040014c, Inst: 00200293, Addr: 00000002, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxx0000, WrEn: 0, Wr-BE: 0100
+PC: 00400150, Inst: fc521ee3, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000200, WrEn: 0, Wr-BE: 0110
+PC: 00400154, Inst: 00e00e13, Addr: 0000000e, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxx0000, WrEn: 0, Wr-BE: 0100
+PC: 00400158, Inst: 00000213, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 0040015c, Inst: 7fc00097, Addr: 8000015c, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 0000000e, WrEn: 0, Wr-BE: 0001
+PC: 00400160, Inst: ea408093, Addr: 80000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 00400164, Inst: 00108183, Addr: 80000001, Rd-Dt: 0ff000ff, Rd-En 1, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0010
+PC: 00400168, Inst: 00000013, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 0040016c, Inst: 00000013, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 00400170, Inst: 00018313, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 00400174, Inst: 00000e93, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 00400178, Inst: 0dd31a63, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0110
+PC: 0040017c, Inst: 00120213, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0010
+PC: 00400180, Inst: 00200293, Addr: 00000002, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxx0000, WrEn: 0, Wr-BE: 0100
+PC: 00400184, Inst: fc521ce3, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000002, WrEn: 0, Wr-BE: 0011
+PC: 0040015c, Inst: 7fc00097, Addr: 8000015c, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 0000000e, WrEn: 0, Wr-BE: 0001
+PC: 00400160, Inst: ea408093, Addr: 80000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000001, WrEn: 0, Wr-BE: 0001
+PC: 00400164, Inst: 00108183, Addr: 80000001, Rd-Dt: 0ff000ff, Rd-En 1, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0010
+PC: 00400168, Inst: 00000013, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 0040016c, Inst: 00000013, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 00400170, Inst: 00018313, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 00400174, Inst: 00000e93, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 00400178, Inst: 0dd31a63, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0110
+PC: 0040017c, Inst: 00120213, Addr: 00000002, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0100
+PC: 00400180, Inst: 00200293, Addr: 00000002, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxx0000, WrEn: 0, Wr-BE: 0100
+PC: 00400184, Inst: fc521ce3, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000200, WrEn: 0, Wr-BE: 0110
+PC: 00400188, Inst: 00f00e13, Addr: 0000000f, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xx000000, WrEn: 0, Wr-BE: 1000
+PC: 0040018c, Inst: 00000213, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 00400190, Inst: 7fc00097, Addr: 80000190, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 0000000f, WrEn: 0, Wr-BE: 0001
+PC: 00400194, Inst: e7108093, Addr: 80000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxxxx00, WrEn: 0, Wr-BE: 0010
+PC: 00400198, Inst: 00108183, Addr: 80000002, Rd-Dt: 0ff000ff, Rd-En 1, Wr-Dt: 00010000, WrEn: 0, Wr-BE: 0100
+PC: 0040019c, Inst: ff000e93, Addr: fffffff0, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxxxxxx, WrEn: 0, Wr-BE: 0001
+PC: 004001a0, Inst: 0bd19663, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: fffff000, WrEn: 0, Wr-BE: 0110
+PC: 004001a4, Inst: 00120213, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000100, WrEn: 0, Wr-BE: 0010
+PC: 004001a8, Inst: 00200293, Addr: 00000002, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxx0000, WrEn: 0, Wr-BE: 0100
+PC: 004001ac, Inst: fe5212e3, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000002, WrEn: 0, Wr-BE: 0011
+PC: 00400190, Inst: 7fc00097, Addr: 80000190, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 0000000f, WrEn: 0, Wr-BE: 0001
+PC: 00400194, Inst: e7108093, Addr: 80000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxxxx00, WrEn: 0, Wr-BE: 0010
+PC: 00400198, Inst: 00108183, Addr: 80000002, Rd-Dt: 0ff000ff, Rd-En 1, Wr-Dt: 00010000, WrEn: 0, Wr-BE: 0100
+PC: 0040019c, Inst: ff000e93, Addr: fffffff0, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxxxxxx, WrEn: 0, Wr-BE: 0001
+PC: 004001a0, Inst: 0bd19663, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: fffff000, WrEn: 0, Wr-BE: 0110
+PC: 004001a4, Inst: 00120213, Addr: 00000002, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00010000, WrEn: 0, Wr-BE: 0100
+PC: 004001a8, Inst: 00200293, Addr: 00000002, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxx0000, WrEn: 0, Wr-BE: 0100
+PC: 004001ac, Inst: fe5212e3, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000200, WrEn: 0, Wr-BE: 0110
+PC: 004001b0, Inst: 01000e13, Addr: 00000010, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxxxxxx, WrEn: 0, Wr-BE: 0001
+PC: 004001b4, Inst: 00000213, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 004001b8, Inst: 7fc00097, Addr: 800001b8, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000010, WrEn: 0, Wr-BE: 0001
+PC: 004001bc, Inst: e4a08093, Addr: 80000002, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxx0000, WrEn: 0, Wr-BE: 0100
+PC: 004001c0, Inst: 00000013, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 004001c4, Inst: 00108183, Addr: 80000003, Rd-Dt: 0ff000ff, Rd-En 1, Wr-Dt: 02000000, WrEn: 0, Wr-BE: 1000
+PC: 004001c8, Inst: 00f00e93, Addr: 0000000f, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xx000000, WrEn: 0, Wr-BE: 1000
+PC: 004001cc, Inst: 09d19063, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000f00, WrEn: 0, Wr-BE: 0110
+PC: 004001d0, Inst: 00120213, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000200, WrEn: 0, Wr-BE: 0010
+PC: 004001d4, Inst: 00200293, Addr: 00000002, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxx0000, WrEn: 0, Wr-BE: 0100
+PC: 004001d8, Inst: fe5210e3, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000002, WrEn: 0, Wr-BE: 0011
+PC: 004001b8, Inst: 7fc00097, Addr: 800001b8, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000010, WrEn: 0, Wr-BE: 0001
+PC: 004001bc, Inst: e4a08093, Addr: 80000002, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxx0000, WrEn: 0, Wr-BE: 0100
+PC: 004001c0, Inst: 00000013, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 004001c4, Inst: 00108183, Addr: 80000003, Rd-Dt: 0ff000ff, Rd-En 1, Wr-Dt: 02000000, WrEn: 0, Wr-BE: 1000
+PC: 004001c8, Inst: 00f00e93, Addr: 0000000f, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xx000000, WrEn: 0, Wr-BE: 1000
+PC: 004001cc, Inst: 09d19063, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000f00, WrEn: 0, Wr-BE: 0110
+PC: 004001d0, Inst: 00120213, Addr: 00000002, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00020000, WrEn: 0, Wr-BE: 0100
+PC: 004001d4, Inst: 00200293, Addr: 00000002, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxx0000, WrEn: 0, Wr-BE: 0100
+PC: 004001d8, Inst: fe5210e3, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000200, WrEn: 0, Wr-BE: 0110
+PC: 004001dc, Inst: 01100e13, Addr: 00000011, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxxxx00, WrEn: 0, Wr-BE: 0010
+PC: 004001e0, Inst: 00000213, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 004001e4, Inst: 7fc00097, Addr: 800001e4, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000011, WrEn: 0, Wr-BE: 0001
+PC: 004001e8, Inst: e1c08093, Addr: 80000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000011, WrEn: 0, Wr-BE: 0001
+PC: 004001ec, Inst: 00000013, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 004001f0, Inst: 00000013, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 004001f4, Inst: 00108183, Addr: 80000001, Rd-Dt: 0ff000ff, Rd-En 1, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0010
+PC: 004001f8, Inst: 00000e93, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 004001fc, Inst: 05d19863, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0110
+PC: 00400200, Inst: 00120213, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0010
+PC: 00400204, Inst: 00200293, Addr: 00000002, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxx0000, WrEn: 0, Wr-BE: 0100
+PC: 00400208, Inst: fc521ee3, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000002, WrEn: 0, Wr-BE: 0011
+PC: 004001e4, Inst: 7fc00097, Addr: 800001e4, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000011, WrEn: 0, Wr-BE: 0001
+PC: 004001e8, Inst: e1c08093, Addr: 80000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000011, WrEn: 0, Wr-BE: 0001
+PC: 004001ec, Inst: 00000013, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 004001f0, Inst: 00000013, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 004001f4, Inst: 00108183, Addr: 80000001, Rd-Dt: 0ff000ff, Rd-En 1, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0010
+PC: 004001f8, Inst: 00000e93, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 004001fc, Inst: 05d19863, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0110
+PC: 00400200, Inst: 00120213, Addr: 00000002, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0100
+PC: 00400204, Inst: 00200293, Addr: 00000002, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxx0000, WrEn: 0, Wr-BE: 0100
+PC: 00400208, Inst: fc521ee3, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000200, WrEn: 0, Wr-BE: 0110
+PC: 0040020c, Inst: 7fc00297, Addr: 8000020c, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000011, WrEn: 0, Wr-BE: 0001
+PC: 00400210, Inst: df428293, Addr: 80000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxxxxxx, WrEn: 0, Wr-BE: 0001
+PC: 00400214, Inst: 00028103, Addr: 80000000, Rd-Dt: 0ff000ff, Rd-En 1, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 00400218, Inst: 00200113, Addr: 00000002, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: ffff0000, WrEn: 0, Wr-BE: 0100
+PC: 0040021c, Inst: 00200e93, Addr: 00000002, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00020000, WrEn: 0, Wr-BE: 0100
+PC: 00400220, Inst: 01200e13, Addr: 00000012, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxx0000, WrEn: 0, Wr-BE: 0100
+PC: 00400224, Inst: 03d11463, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000200, WrEn: 0, Wr-BE: 0110
+PC: 00400228, Inst: 7fc00297, Addr: 80000228, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000012, WrEn: 0, Wr-BE: 0001
+PC: 0040022c, Inst: dd828293, Addr: 80000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxxxxxx, WrEn: 0, Wr-BE: 0001
+PC: 00400230, Inst: 00028103, Addr: 80000000, Rd-Dt: 0ff000ff, Rd-En 1, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 00400234, Inst: 00000013, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0001
+PC: 00400238, Inst: 00200113, Addr: 00000002, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: ffff0000, WrEn: 0, Wr-BE: 0100
+PC: 0040023c, Inst: 00200e93, Addr: 00000002, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00020000, WrEn: 0, Wr-BE: 0100
+PC: 00400240, Inst: 01300e13, Addr: 00000013, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xx000000, WrEn: 0, Wr-BE: 1000
+PC: 00400244, Inst: 01d11463, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000200, WrEn: 0, Wr-BE: 0110
+PC: 00400248, Inst: 01c01a63, Addr: 00000000, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000013, WrEn: 0, Wr-BE: 0011
+PC: 0040025c, Inst: ff000513, Addr: fffffff0, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: xxxxxxxx, WrEn: 0, Wr-BE: 0001
+PC: 00400260, Inst: 00100593, Addr: 00000001, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000000, WrEn: 0, Wr-BE: 0010
+PC: 00400264, Inst: 00b52023, Addr: fffffff0, Rd-Dt: xxxxxxxx, Rd-En 0, Wr-Dt: 00000001, WrEn: 1, Wr-BE: 1111
+Pass
+$finish called at time : 2165 ns : File "C:/Users/Emre/Desktop/riscv-simple-sv-master/riscvVivado/riscvVivado.srcs/sim_1/new/tb_top.sv" Line 31
